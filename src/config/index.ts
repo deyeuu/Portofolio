@@ -68,29 +68,21 @@ export const SITE_CONTENT: SiteContent = {
 
   projects: [
     {
-      name: "Personal Portfolio Website",
-      summary:
-        "A responsive and modern web portfolio built with Next.js and Tailwind CSS to showcase my skills as a Tech Generalist.",
-      linkPreview: "/",
-      linkSource: "https://github.com/wendiarilalivia/portfolio",
-      image: "/portfolio-preview.png"
-    },
-    {
-      name: "Helpdesk Ticket System (Prototype)",
+      name: "Tertib-Smk (On-going)",
       summary:
         "A web-based ticketing prototype for tracking and managing support requests, designed to simulate real IT workflows.",
       linkPreview: "/",
-      linkSource: "https://github.com/wendiarilalivia/helpdesk-system",
+      linkSource: "https://github.com/mamanrpl02/tertib-smk-next.git",
       image: "/helpdesk.png"
     },
-    {
-      name: "QA Testing Documentation",
+     {
+      name: "Kindness (pending)",
       summary:
-        "Created detailed QA test case documentation and bug reports for small web projects, following SDLC principles.",
+        "A web-based ticketing prototype for tracking and managing support requests, designed to simulate real IT workflows.",
       linkPreview: "/",
-      linkSource: "https://github.com/wendiarilalivia/qa-docs",
-      image: "/qa-docs.png"
-    }
+      linkSource: "https://github.com/deyeuu/kindness-map.git",
+      image: "/helpdesk.png"
+    },
   ],
 
   skills: [

@@ -4,12 +4,19 @@
   --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
   --font-serif: "Gabarito Variable", ui-serif, serif;
 
---color-primary: #ff4de1;   /* pink neon untuk teks dan tombol */
---color-neutral: #8c7eff;   /* ungu pastel untuk border/hover */
---color-white: #f0f8ff;     /* bg utama */
---color-black: #0d0d0d; 
+  /* Updated Color Palette - No Pink */
+  --color-primary: #00ffea;           /* cyan neon sebagai primary */
+  --color-secondary: #7e42ff;         /* ungu electric */
+  --color-accent: #00ff88;            /* hijau neon untuk aksen */
+  --color-neutral: #8c7eff;           /* ungu pastel */
+  --color-white: #f0f8ff;             /* biru pucat, soft */
+  --color-black: #0d0d0d;             /* hitam pekat */
+  --color-gray-dark: #1a1a1a;         /* dark gray untuk cards */
+  --color-gray-medium: #2d2d2d;       /* medium gray */
+  --color-warning: #ffcc00;           /* kuning untuk warning */
+  --color-orange: #ff6b35;            /* orange sebagai alternatif */
 
-
+  /* Text sizes tetap sama */
   --text-xs: 0.875rem;
   --text-xs--line-height: 1.125rem;
   --text-sm: 1rem;
