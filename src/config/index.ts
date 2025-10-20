@@ -1,98 +1,140 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Wendi Aril Alivia — Tech Generalist",
+  author: "Wendi Aril Alivia",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Tech Generalist with skills in Software Quality Assurance, Web Development, IT Support, and Creative Design — passionate about learning, building, and improving technology in every form.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/W.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Skills", href: "#skills" },
+    { text: "About", href: "#about" }
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/wendiarilalivia" },
+    { text: "Github", href: "https://github.com/wendiarilalivia" },
+    { text: "Email", href: "mailto:wendialivia06@gmail.com" }
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/wendi-og.png",
+  canonicalURL: "https://wendiarilalivia.vercel.app"
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Wendi Aril Alivia",
+    specialty: "Tech Generalist",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "A Tech Generalist with experience in Software Quality Assurance, Web Development, and IT Support — who also loves design and keeps learning to get better every day. I enjoy combining logic and creativity to build useful, reliable, and visually appealing digital experiences.",
+    email: "wendialivia06@gmail.com"
   },
+
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "PT Lemurian Teknologi Inovasi",
+      position: "SQA",
+      startDate: "Jul 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
+        "Responsible for system configuration and software testing to ensure proper functionality and performance.",
+        "Conducted testing to identify issues, verify features, and maintain system stability."
+      ]
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "PT Eco Paper Indonesia",
+      position: "IT Support (Internship)",
+      startDate: "Jul 2024",
+      endDate: "Dec 2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
+        "Assisted in troubleshooting and maintaining computer systems and network connectivity for office operations.",
+        "Supported documentation of IT assets and system reports to ensure data consistency.",
+        "Collaborated with the IT team to optimize workflow and monitor system performance."
+      ]
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
+      company: "Majelis Perwakilan Kelas (SMKN 1 Subang)",
+      position: "Chairman",
+      startDate: "okt 2023",
+      endDate: "jan 2024",
+      summary: [
+        "Led organizational planning, communication, and reporting for school-wide programs.",
+        "Improved coordination and teamwork across multiple student divisions.",
+        "Developed structured reports and documentation for all activities and events."
+      ]
+    }
   ],
+
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Personal Portfolio Website",
+      summary:
+        "A responsive and modern web portfolio built with Next.js and Tailwind CSS to showcase my skills as a Tech Generalist.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/wendiarilalivia/portfolio",
+      image: "/portfolio-preview.png"
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Helpdesk Ticket System (Prototype)",
+      summary:
+        "A web-based ticketing prototype for tracking and managing support requests, designed to simulate real IT workflows.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/wendiarilalivia/helpdesk-system",
+      image: "/helpdesk.png"
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "QA Testing Documentation",
+      summary:
+        "Created detailed QA test case documentation and bug reports for small web projects, following SDLC principles.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
-    },
+      linkSource: "https://github.com/wendiarilalivia/qa-docs",
+      image: "/qa-docs.png"
+    }
   ],
+
+  skills: [
+    {
+      category: "Tools & Software",
+      items: [
+        { name: "Visual Studio Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { name: "Cypress", icon: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cypress.svg" },
+        { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+        { name: "Git & GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+        { name: "Adobe Illustrator", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" },
+        { name: "Microsoft Office", icon: "https://img.icons8.com/color/96/microsoft-office-2019.png" },
+        { name: "PyCharm", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" },
+        { name: "System Maintenance", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" }
+      ]
+    },
+    {
+      category: "Technical Practices",
+      items: [
+        { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+        { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+        { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+        { name: "Laravel", icon: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/laravel.svg" },
+        { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tailwindcss.svg" },
+        { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+        { name: "Manual Testing", icon: "https://cdn-icons-png.flaticon.com/512/992/992700.png" },
+        { name: "Automation Testing", icon: "https://cdn-icons-png.flaticon.com/512/1048/1048953.png" },
+        { name: "Collaboration", icon: "https://cdn-icons-png.flaticon.com/512/942/942748.png" },
+        { name: "SDLC & Documentation", icon: "https://cdn-icons-png.flaticon.com/512/2920/2920266.png" },
+        { name: "Troubleshooting", icon: "https://cdn-icons-png.flaticon.com/512/1828/1828743.png" }
+      ]
+    }
+  ],
+
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Wendi Aril Alivia — a passionate Tech Generalist from Subang, Indonesia. 
+      I have hands-on experience in Software Quality Assurance, Web Development, and IT Support. 
+      I also have a deep interest in design and am continuously learning to improve my creative and technical skills. 
+      With a background in Software Engineering (Rekayasa Perangkat Lunak), I love exploring every layer of technology — from code logic and testing to system maintenance, documentation, and user-friendly interface design.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      My goal is to keep learning, building, and improving systems to deliver reliable, efficient, and creative digital experiences. 
+      I believe that understanding multiple aspects of IT helps me connect development, testing, design, and usability into one seamless workflow.
     `,
-    image: "/alejandro-big.jpg",
-  },
+    image: "/wendi-big.jpg"
+  }
 };
-
-// #5755ff
